@@ -12,7 +12,7 @@
     "gatsby"
   ],
   "scripts": {
-    "start": "gatsby develop",
+    "start": "gatsby develop -- --https",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
@@ -22,14 +22,21 @@
     "gatsby": "^5.5.0",
     "gatsby-plugin-google-gtag": "^5.5.0",
     "gatsby-plugin-image": "^3.5.0",
+    "gatsby-plugin-layout": "^4.5.0",
     "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-nprogress": "^5.5.0",
     "gatsby-plugin-sharp": "^5.5.0",
     "gatsby-plugin-sitemap": "^6.5.0",
     "gatsby-plugin-styled-components": "^6.5.0",
     "gatsby-source-filesystem": "^5.5.0",
     "gatsby-transformer-sharp": "^5.5.0",
+    "next-share": "^0.19.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "devcert": "^1.2.2"
   }
 }
