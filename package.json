@@ -1,14 +1,17 @@
 {
   "name": "contagion-charts",
   "version": "1.0.0",
-  "private": true,
-  "description": "contagion-charts",
+  "private": false,
+  "description": "A chart and map app driven by global contagion data.",
   "author": "davidbbe",
+  "engines": {
+    "node": "18",
+    "npm": ">=9"
+  },
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
