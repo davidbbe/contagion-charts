@@ -2,7 +2,7 @@
   "name": "contagion-charts",
   "version": "1.0.0",
   "private": false,
-  "description": "A chart and map app driven by global contagion data.",
+  "description": "A web app for displaying maps and charts based on global contagion data.",
   "author": "davidbbe",
   "engines": {
     "node": "18",
